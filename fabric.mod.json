@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "orbitalstrike",
+  "version": "${version}",
+  "name": "Orbital Strike",
+  "description": "Orbital Strike Mod with Nuke and Stab weapon callers.",
+  "authors": ["Developer"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.orbitalstrike.OrbitalStrikeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
